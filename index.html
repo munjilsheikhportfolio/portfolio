@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Munjil | Portfolio</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #0f172a;
+  color: white;
+}
+
+/* NAVIGATION */
+nav {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  background: rgba(15, 23, 42, 0.95);
+  padding: 15px 0;
+  text-align: center;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 2px 15px rgba(0,0,0,0.4);
+  z-index: 1000;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 20px;
+  font-size: 16px;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  color: #3b82f6;
+}
+
+/* HERO SECTION */
+header {
+  padding: 160px 20px 100px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+header p {
+  font-size: 20px;
+  opacity: 0.8;
+}
+
+.button {
+  display: inline-block;
+  margin-top: 30px;
+  background: linear-gradient(90deg, #2563EB, #3b82f6);
+  padding: 14px 30px;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  transition: 0.3s;
+}
+
+.button:hover {
+  transform: scale(1.05);
+}
+
+/* SECTIONS */
+section {
+  padding: 80px 20px;
+  text-align: center;
+}
+
+section h2 {
+  font-size: 32px;
+  margin-bottom: 40px;
+}
+
+/* CARDS */
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  background: #1e293b;
+  padding: 30px;
+  margin: 15px;
+  border-radius: 12px;
+  width: 280px;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 30px rgba(59,130,246,0.3);
+}
+
+footer {
+  padding: 30px;
+  background: #020617;
+  text-align: center;
+  opacity: 0.7;
+}
+
+</style>
+</head>
+
+<body>
+
+<!-- NAVIGATION -->
+<nav>
+  <a href="#">Home</a>
+  <a href="#about">About</a>
+  <a href="#services">Services</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<!-- HERO -->
+<header>
+<h1>I Help Brands Grow with Strategy, Design & AI</h1>
+<p>Social Media Manager | Graphic Designer | AI Researcher</p>
+<a href="#contact" class="button">Work With Me</a>
+</header>
+
+<!-- ABOUT -->
+<section id="about">
+<h2>About Me</h2>
+<p>I combine creativity, strategy and AI innovation to help brands grow faster in the digital world.</p>
+</section>
+
+<!-- SERVICES -->
+<section id="services">
+<h2>Services</h2>
+
+<div class="card-container">
+
+<div class="card">
+<h3>Social Media Management</h3>
+<p>Content strategy, growth, engagement & analytics.</p>
+</div>
+
+<div class="card">
+<h3>Graphic Design</h3>
+<p>Branding, social content, ads & visual identity.</p>
+</div>
+
+<div class="card">
+<h3>AI Solutions</h3>
+<p>Automation, AI workflows & smart marketing systems.</p>
+</div>
+
+</div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+<h2>Contact Me</h2>
+<p>Email: Skillupermunjil@gmail.com</p>
+</section>
+
+<footer>
+<p>© 2026 MD Munjil Sheikh. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
